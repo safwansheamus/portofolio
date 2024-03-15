@@ -36,13 +36,6 @@ const Skills = () => {
               <span className="w-[80%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
           </div>
-          {/* UI Design */}
-          <div className="py-3 border-b-[1px] border-zinc-800">
-            <p className="text-base text-textColor -mb-1.5">UI Design</p>
-            <span className="w-full bg-zinc-600 h-1 inline-flex relative">
-              <span className="w-[80%] h-full absolute top-0 left-0 bg-designColor"></span>
-            </span>
-          </div>
         </div>
       </div>
       <div className="w-full h-full hidden lgl:flex justify-center items-center">
@@ -78,7 +71,7 @@ const Skills = () => {
           <div className="py-3 border-b-[1px] border-zinc-800">
             <p className="text-base text-textColor -mb-1.5">JavaScript</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
-              <span className="w-[85%] h-full absolute top-0 left-0 bg-designColor"></span>
+              <span className="w-[80%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
           </div>
           {/* web Development */}
@@ -92,14 +85,14 @@ const Skills = () => {
           <div className="py-3 border-b-[1px] border-zinc-800">
             <p className="text-base text-textColor -mb-1.5">Reactjs</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
-              <span className="w-[85%] h-full absolute top-0 left-0 bg-designColor"></span>
+              <span className="w-[80%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
           </div>
           {/* UI Design */}
           <div className="py-3 border-b-[1px] border-zinc-800">
-            <p className="text-base text-textColor -mb-1.5">MySql</p>
+            <p className="text-base text-textColor -mb-1.5">Laravel</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
-              <span className="w-[70%] h-full absolute top-0 left-0 bg-designColor"></span>
+              <span className="w-[75%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
           </div>
         </div>
@@ -121,7 +114,7 @@ const Skills = () => {
             <span className="text-designColor text-lg">
               <GiCheckMark />
             </span>
-            Create logo design
+            Logo design
           </li>
           <li className="flex items-center gap-4 text-textColor">
             <span className="text-designColor text-lg">

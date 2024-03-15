@@ -5,11 +5,12 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import { FiInstagram, FiMail, FiSend } from "react-icons/fi";
 import CV from "../../assets/portofolio.pdf";
+import { ProfilePic } from "../../assets";
 
 
 const Left = () => {
   const [text] = useTypewriter({
-    words: ["Web Developer", "Cyber Security Tecnician", "Graphic Designer"],
+    words: ["Informatics Engineering Student", "Cybersecurity Enthusiast", "Tech Enthusiast"],
     loop: true,
     typeSpeed: 30,
     deleteSpeed: 20,
@@ -20,7 +21,7 @@ const Left = () => {
       <div className="w-full h-3/5">
         <img
           className="w-full h-full object-cover rounded-2xl"
-          src="https://raw.githubusercontent.com/safwansheamus/AssetBuatNugas/main/BukuAI/fotopenulis.jpeg"
+          src={ProfilePic}
           loading="priority"
           alt="bannerImage"
         />

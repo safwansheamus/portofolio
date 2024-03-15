@@ -1,6 +1,7 @@
 import React from "react";
 import Title from "../home/Title";
 import ProjectsCard from "./ProjectsCard";
+import {workBukuais, workCoverbuku, workP1, workP2, workP3, workPoster } from "../../assets";
 
 const Projects = () => {
   return (
@@ -11,34 +12,34 @@ const Projects = () => {
           <ProjectsCard
             title="Poster Pos Indonesia"
             category="Poster Design"
-            image="https://raw.githubusercontent.com/safwansheamus/AssetBuatNugas/main/Portofolio/Poster.png"
+            image={workPoster}
           />
           <ProjectsCard
             title="Pepper AI Bot"
             category="Discord Bot"
-            image="https://raw.githubusercontent.com/safwansheamus/AssetBuatNugas/main/Portofolio/p2.png"
+            image={workP2}
           />
           <ProjectsCard
             title="Eduguard-LMS"
             category="Website"
-            image="https://raw.githubusercontent.com/safwansheamus/AssetBuatNugas/main/Portofolio/p3.png"
+            image={workP3}
           />
           <ProjectsCard
             title="Biak Tourism-Hub"
             category="Website"
-            image="https://raw.githubusercontent.com/safwansheamus/AssetBuatNugas/main/Portofolio/p1.png"
+            image={workP1}
           />
         </div>
         <div className="px-6">
           <ProjectsCard
             title="Golang Tutorial"
             category="Book"
-            image="https://raw.githubusercontent.com/safwansheamus/AssetBuatNugas/main/Portofolio/Sampul%20Buku%20AI.png"
+            image={workBukuais}
           />
           <ProjectsCard
             title="OpenAi Discord Chatbot"
             category="Book"
-            image="https://raw.githubusercontent.com/safwansheamus/AssetBuatNugas/main/Portofolio/coverbuku.jpeg"
+            image={workCoverbuku}
           />
         </div>
       </div>
