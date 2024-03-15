@@ -7,7 +7,7 @@ const AboutMe = () => {
         <div className="py-6">
           <h2 className="font-semibold mb-1">Hello! I'm Muh Safwan</h2>
           <p className="text-base leading-6 ">
-          Iam from Bone, South Sulawesi. Currently, I am pursuing a Diploma 4 (D4) in Computer Engineering at the University of Logistics and International Business in Bandung, now in my seventh semester. I am passionate about technology, specifically in the areas of cyber security, web development, and graphic design.
+          Iam from Bone, South Sulawesi. Currently, I am pursuing a Diploma 4 (D4) in Computer Engineering at the University of Logistics and International Business in Bandung. I am passionate about technology, specifically in the areas of cyber security, web development, and graphic design.
           </p>
         </div>
       </div>
