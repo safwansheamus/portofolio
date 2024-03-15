@@ -11,22 +11,22 @@ const MyPassions = () => {
       <ServicesCard
         icons={<BiCodeAlt />}
         title="Web Development"
-        subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
+        subTitle="I am interested in developing a React project, and now I am starting to learn Next.js."
       />
       <ServicesCard
         icons={<SiAntdesign />}
         title="Graphic Design"
-        subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
+        subTitle="I am interested in graphic design, such as poster and logo design."
       />
       <ServicesCard
         icons={<MdOutlineSecurity/>}
         title="Cyber Security Technician"
-        subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
+        subTitle="I have always wanted to become a hacker because the awareness of the importance of cybersecurity in my country is still relatively low, which drives me to become a cyber security professional."
       />
        <ServicesCard
         icons={<GiConsoleController />}
         title="Gaming"
-        subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
+        subTitle="I have a strong interest in the gaming world, especially PC games. I spend a lot of time playing PC games, and I also enjoy playing some mobile games."
       />
     </div>
   );

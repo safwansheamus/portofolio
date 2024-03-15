@@ -31,7 +31,7 @@ const Blog = () => {
           <BlogCard
             image="https://raw.githubusercontent.com/safwansheamus/AssetBuatNugas/main/Portofolio/oracle.jpg"
             title="March 4, 2022"
-            subTitle="Oracle"
+            subTitle="Oracle Academy"
             category="Certificate"
           />
           <BlogCard

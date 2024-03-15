@@ -4,7 +4,7 @@ import { BsCloudLightningFill } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import { FiInstagram, FiMail, FiSend } from "react-icons/fi";
-import CV from "../../assets/Noor_Mohammad_resume.pdf";
+import CV from "../../assets/portofolio.pdf";
 
 
 const Left = () => {
@@ -55,12 +55,13 @@ const Left = () => {
             rel="noreferrer"
           >
             <button className="w-full h-full flex justify-center items-center gap-2">
-              Download CV <BsCloudLightningFill />
+              Download Portofolio <BsCloudLightningFill />
             </button>
           </a>
-          <button className="w-1/2 border-t-[1px] border-t-zinc-800 text-sm tracking-wide uppercase flex justify-center items-center gap-2 hover:text-designColor duration-300">
-            Contact me <FiSend />
-          </button>
+          <a href="https://wa.link/uxovor" className="w-1/2 border-t-[1px] border-t-zinc-800 text-sm tracking-wide uppercase flex justify-center items-center gap-2 hover:text-designColor duration-300">
+              Contact me <FiSend />
+          </a>
+
         </div>
       </div>
     </div>
