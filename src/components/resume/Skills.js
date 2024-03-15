@@ -11,7 +11,7 @@ const Skills = () => {
     <div className="w-full grid grid-cols-9 gap-10 lgl:gap-0 px-6">
       {/* =============== Design and Languages Start here =================== */}
       <div className="col-span-9 md:col-span-4">
-        <ResumeTitle title="Design" icon={<SiArtstation />} />
+        <ResumeTitle title="Skills" icon={<SiArtstation />} />
         {/* Web Development */}
         <div className="py-4">
           <div className="py-3 border-b-[1px] border-zinc-800">
