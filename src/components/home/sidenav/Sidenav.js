@@ -8,7 +8,7 @@ const Sidenav = () => {
       <SidenavTitle title="R" subTitle="each Me" />
       <ul>
         <li className="sidenavLi">+62 89660533383</li>
-        <li className="sidenavLi">cruelpennywise@gmail.com</li>
+        <li className="sidenavLi">smartcow721@gmail.com</li>
       </ul>
     </div>
   );

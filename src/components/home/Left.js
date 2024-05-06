@@ -3,7 +3,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { BsCloudLightningFill } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-import { FiInstagram, FiMail, FiSend } from "react-icons/fi";
+// import { FiInstagram, FiMail, FiSend } from "react-icons/fi";
 import CV from "../../assets/portofolio.pdf";
 import { ProfilePic } from "../../assets";
 
@@ -40,12 +40,6 @@ const Left = () => {
             <a href="https://www.linkedin.com/in/muhammad-sapwan-suhadi-3880b0280/" target="blank" className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <FaLinkedin />
             </a>
-            <a href="https://www.instagram.com/muh.safwannn/" target="blank" className="hover:text-designColor duration-300 cursor-pointer text-xl">
-              <FiInstagram />
-            </a>
-            <a href="https://mail.google.com/mail/u/0/?tab=rm#inbox?compose=new" target="blank" className="hover:text-designColor duration-300 cursor-pointer text-xl">
-              <FiMail />
-            </a>
           </div>
         </div>
         <div className="flex h-14">
@@ -59,10 +53,6 @@ const Left = () => {
               Download Portofolio <BsCloudLightningFill />
             </button>
           </a>
-          <a href="https://wa.link/uxovor" className="w-1/2 border-t-[1px] border-t-zinc-800 text-sm tracking-wide uppercase flex justify-center items-center gap-2 hover:text-designColor duration-300">
-              Contact me <FiSend />
-          </a>
-
         </div>
       </div>
     </div>
